@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55abf84ace85d7243b577bfb0f41f45c, type: 3}
+  m_Name: InitSO
+  m_EditorClassIdentifier: 
+  items:
+  - name: "\uC5B4\uB451\uC2DC\uB2C8"
+    cost: 3
+    attack: 15
+    health: 150
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 830d2b1079f244748aa942679892c540, type: 3}
+    prefabs: {fileID: 8049804012257171943, guid: 3ad3101e2118748799ae8fe21ba609ad, type: 3}
+    percent: 20
+    isUnit: 1
+    isMagic: 0
+    isTower: 0
+  - name: "\uAD6C\uBBF8\uD638"
+    cost: 5
+    attack: 30
+    health: 120
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 1a857d4144317a54cafa32a1a6c11a6b, type: 3}
+    prefabs: {fileID: 9033878491716486131, guid: 48ff5cb7dbf4e40cba3675af2b96694e, type: 3}
+    percent: 13
+    isUnit: 1
+    isMagic: 0
+    isTower: 0
+  - name: "\uBD88\uAC00\uC0B4\uC774"
+    cost: 7
+    attack: 10
+    health: 300
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 743e625d91155494d93efc0cdd814b4a, type: 3}
+    prefabs: {fileID: 2270163402404922518, guid: 4d5cefafa43264975b0924227515fedc, type: 3}
+    percent: 12
+    isUnit: 1
+    isMagic: 0
+    isTower: 0
+  - name: "\uBCBC\uB77D"
+    cost: 4
+    attack: 150
+    health: 0
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: a6b5b1ecd71177749be7847e9d7b93b4, type: 3}
+    prefabs: {fileID: 3324768780003996656, guid: e8421ae68fb67fe459f865ae9537482d, type: 3}
+    percent: 10
+    isUnit: 0
+    isMagic: 1
+    isTower: 0
+  - name: "\uBD88\uB369\uC774"
+    cost: 6
+    attack: 90
+    health: 0
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 716ea780e4ab9734d8405cf667195363, type: 3}
+    prefabs: {fileID: 9143824477016684038, guid: eb6d5fd1ea05092498e2c49577557480, type: 3}
+    percent: 10
+    isUnit: 0
+    isMagic: 1
+    isTower: 0
+  - name: "\uD68C\uBCF5"
+    cost: 5
+    attack: 100
+    health: 0
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 1c6dda8749e1b3a46aaa3efa7ace9f11, type: 3}
+    prefabs: {fileID: 3324768780003996656, guid: e8421ae68fb67fe459f865ae9537482d, type: 3}
+    percent: 10
+    isUnit: 0
+    isMagic: 1
+    isTower: 0
+  - name: "\uACF5\uACA9\uB825 \uAC15\uD654"
+    cost: 3
+    attack: 30
+    health: 0
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: fceca73fc7fbcc04a9b8eb4518b437dd, type: 3}
+    prefabs: {fileID: 7312126410672625549, guid: b6415ac2d4c30eb4eb7fb2cdc3c7b010, type: 3}
+    percent: 10
+    isUnit: 0
+    isMagic: 1
+    isTower: 0
+  - name: "\uD0C0\uC6CC"
+    cost: 3
+    attack: 0
+    health: 500
+    reinforce: 1
+    sprite: {fileID: 21300000, guid: 8e40c9cdb53fb6648b3c99b8a2985560, type: 3}
+    prefabs: {fileID: 3506667756759319156, guid: 4ebd7ba059833e549a1ef036fe9cfd48, type: 3}
+    percent: 15
+    isUnit: 0
+    isMagic: 0
+    isTower: 1
+  enemies:
+  - name: "\uD65C\uC7A1\uC774"
+    attack: 30
+    health: 100
+    prefabs: {fileID: 5804918294466035488, guid: d8874e5fbb8764f76a9d280fcd15cea0, type: 3}
+    percent: 0
+    cost: 5
+  - name: "\uB3C4\uC0AC"
+    attack: 40
+    health: 80
+    prefabs: {fileID: 4459660149883160524, guid: 37152f08873634527bc97304c89cd57e, type: 3}
+    percent: 0
+    cost: 5
+  - name: "\uCE7C\uC7A1\uC774"
+    attack: 15
+    health: 150
+    prefabs: {fileID: 388473957860038005, guid: a3d1f98e4280c4cbdb723515d9631616, type: 3}
+    percent: 0
+    cost: 5
