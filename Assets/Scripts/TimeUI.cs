@@ -12,7 +12,7 @@ public class TimeUI : MonoBehaviour
     public float m_TotalSeconds = 3 * 60;
     public Text m_Text;
 
-    public static int Wave = 5;
+    public static int Wave = 1;
     public Text WaveText;
 
     public Image Panel;

@@ -11,10 +11,12 @@ public class ForMiniBoss : MonoBehaviour
 
     public GameObject forAttackSize;
 
+    SpriteRenderer rend;
     GameObject castle;
 
 
     public float movePower = 5f;
+    Rigidbody2D rigid;
     Animator animator;
 
 
@@ -24,6 +26,8 @@ public class ForMiniBoss : MonoBehaviour
     {
 
         animator = GetComponent<Animator>();
+        rigid = GetComponent<Rigidbody2D>();
+        rend = GetComponent<SpriteRenderer>();
 
     }
 
@@ -135,7 +139,10 @@ public class ForMiniBoss : MonoBehaviour
         return closest;
     }
 
-
+    public void SetHp(int damage)
+    {
+        thisEntity.health -= damage;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

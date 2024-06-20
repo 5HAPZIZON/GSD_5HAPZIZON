@@ -231,7 +231,7 @@ MonoBehaviour:
   FoundObjects: []
   associate: {fileID: 0}
   forAttackSize: {fileID: 0}
-  movePower: 2
+  movePower: 1
 --- !u!114 &563237257726103826
 MonoBehaviour:
   m_ObjectHideFlags: 0

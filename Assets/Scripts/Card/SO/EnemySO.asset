@@ -18,28 +18,23 @@ MonoBehaviour:
     health: 100
     prefabs: {fileID: 5804918294466035488, guid: d8874e5fbb8764f76a9d280fcd15cea0, type: 3}
     percent: 0
-    cost: 5
   - name: "\uB3C4\uC0AC"
     attack: 40
     health: 80
     prefabs: {fileID: 4459660149883160524, guid: 37152f08873634527bc97304c89cd57e, type: 3}
     percent: 0
-    cost: 5
   - name: "\uCE7C\uC7A1\uC774"
     attack: 15
     health: 150
     prefabs: {fileID: 388473957860038005, guid: a3d1f98e4280c4cbdb723515d9631616, type: 3}
     percent: 0
-    cost: 5
   - name: "\uC911\uAC04\uBCF4\uC2A4"
     attack: 40
-    health: 300
+    health: 1000
     prefabs: {fileID: 2487077831094000812, guid: b9b1ee61203a14b73af3d0ff2e65cc44, type: 3}
     percent: 0
-    cost: 10
   - name: "\uCD5C\uC885\uBCF4\uC2A4"
     attack: 50
-    health: 500
+    health: 5000
     prefabs: {fileID: 6510846431304773803, guid: 1a5b65033b6a24e688039406576d4f99, type: 3}
     percent: 0
-    cost: 10

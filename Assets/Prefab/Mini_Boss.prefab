@@ -232,7 +232,7 @@ MonoBehaviour:
   associate: {fileID: 0}
   shortDis: 0
   forAttackSize: {fileID: 0}
-  movePower: 2
+  movePower: 1
 --- !u!114 &-1340175761401354339
 MonoBehaviour:
   m_ObjectHideFlags: 0
